@@ -65,8 +65,8 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="text-sm font-bold tracking-widest uppercase text-white/30 mb-1">Email Me</h4>
-                                    <a href="mailto:hello@abhinav.me" className="text-lg font-serif hover:text-indigo-400 transition-colors">
-                                        hello@abhinav.me
+                                    <a href="mailto:abhinavbhattarai16@gmail.com" className="text-lg font-serif hover:text-indigo-400 transition-colors">
+                                        abhinavbhattarai16@gmail.com
                                     </a>
                                 </div>
                             </motion.div>
@@ -108,7 +108,7 @@ export default function Contact() {
                                     id="name"
                                     name="name"
                                     required
-                                    placeholder="John Doe"
+                                    placeholder="Your Name"
                                     className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-white/20 focus:outline-none focus:border-indigo-500 transition-all font-sans"
                                 />
                             </div>
@@ -121,7 +121,7 @@ export default function Contact() {
                                     id="email"
                                     name="email"
                                     required
-                                    placeholder="john@example.com"
+                                    placeholder="your@email.com"
                                     className="w-full px-6 py-4 rounded-2xl bg-white/5 border border-white/10 text-white placeholder:text-white/20 focus:outline-none focus:border-indigo-500 transition-all font-sans"
                                 />
                             </div>
