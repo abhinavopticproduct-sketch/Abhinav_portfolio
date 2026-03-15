@@ -1,3 +1,5 @@
+"use server";
+
 import { sql } from "@/lib/db";
 
 export async function submitContactForm(formData: FormData) {
