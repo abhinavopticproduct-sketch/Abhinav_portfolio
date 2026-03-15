@@ -28,13 +28,13 @@ const Hero = () => {
                             transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
                             className="flex justify-center mb-10"
                         >
-                            <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border border-white/10 shadow-[0_0_60px_rgba(99,102,241,0.15)] group">
+                            <div className="relative w-56 h-72 md:w-72 md:h-[400px] rounded-3xl overflow-hidden border border-white/10 shadow-[0_0_80px_rgba(99,102,241,0.15)] group">
                                 <Image
                                     src="/images/abhinav.jpg"
                                     alt="Abhinav Bhattarai"
                                     fill
                                     priority
-                                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                                    className="object-cover object-top group-hover:scale-105 transition-transform duration-700"
                                 />
                                 <div className="absolute inset-0 bg-indigo-500/10 mix-blend-overlay opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                             </div>
