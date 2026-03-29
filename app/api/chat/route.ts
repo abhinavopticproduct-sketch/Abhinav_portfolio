@@ -1,8 +1,9 @@
 import { google } from "@ai-sdk/google";
 import { streamText, UIMessage } from "ai";
 
-// Allow streaming responses up to 30 seconds
 export const maxDuration = 30;
+export const dynamic = 'force-dynamic';
+export const runtime = 'edge';
 
 export async function POST(req: Request) {
   try {
