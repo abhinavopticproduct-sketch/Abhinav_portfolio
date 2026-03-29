@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
+import ChatWidget from "@/components/ChatWidget";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -29,6 +30,7 @@ export default function RootLayout({
         className={`${inter.variable} ${cormorant.variable} antialiased font-sans bg-[#0a0a0a] text-white`}
       >
         {children}
+        <ChatWidget />
       </body>
     </html>
   );
